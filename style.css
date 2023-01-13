@@ -1,0 +1,70 @@
+body {
+    background: url(motor.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
+    font-size: 15px;
+    display: flex;
+}
+.container {
+    width: 600px;
+    height: 300px;
+    background-color: beige;
+    border-radius: 10px;
+    padding: 5px 30px 0 30px;
+    margin: 25px 0 0 25px;
+}
+.form__title {
+    color: blue;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.form__message {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.form__message--error {
+    color: red
+}
+.form__input {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 1px solid white;
+    outline: none;
+    transition: background 0.3s, border-color 0.3s;
+}
+.form__input-error-message {
+    margin-top: 0.4rem;
+    font-size: 0.8rem;
+    color: red
+}
+.form__input-error-message {
+    margin-top: 0.4rem;
+    font-size: 0.8rem;
+    color: red
+}
+.form__button {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(233, 147, 147);
+    color: rgb(255, 255, 255);
+    font-weight: 1.1rem;
+    font-size: 1rem;
+    border-radius: 7px;
+    border: none;
+}
+.form__text {
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.form__button:hover {
+    background-color: rgb(169, 169, 250);
+}
+.form__button:active {
+    transform: scale(0.98);
+}
